@@ -1,0 +1,141 @@
+/*Global Style*/
+body {
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: #222222
+}
+
+/*Banner Style*/
+.masthead {
+  color: white;
+  text-shadow: 1px 1px 1px #32333E;
+  padding: 12.1em 0;
+  background-image: url("../images/header2.jpg");
+  background-size: cover;
+  background-repeat: none;
+  border-top: 1em solid #32333E;
+  -moz-box-shadow: 3px 3px 5px 6px #D6CA9B;
+  -webkit-box-shadow: 3px 3px 5px 6px #D6CA9B;
+  box-shadow: 3px 3px 5px 6px #D6CA9B;
+}
+
+/*Banner Text 1*/
+.masthead-intro {
+  text-align: center;
+  margin-bottom: 0.1em;
+  font-size: 2em;
+}
+
+/*Banner Text 2*/
+.masthead-heading {
+  text-align: center;
+  margin-top: -0.2em;
+  font-size: 6em;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  
+}
+
+/*Spacer between footer and container*/
+.moreaboutme-section {
+  margin-bottom: 5em;
+  
+}
+
+/*Question Style*/
+.moreaboutme-section h3 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+  color: #D8B380;
+  
+}
+
+/*container build*/
+.introduction-section, .location-section, .moreaboutme-section {
+ max-width:38em;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 3em;
+ 
+}
+
+/*paragraph style*/
+.introduction-section p, .location-section p, .moreaboutme-section p {
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  font-size:1.2em;
+  
+}
+
+/*section title style*/
+section h1 {
+  margin-top:2em;
+}
+
+/*footer build-out*/
+footer {
+  height: 15.625em;
+  background-color: #32333E;
+  color: #D6CA9B;
+}
+
+/*vertical centering in footer*/
+#footerpadding {
+  padding-top:3em;
+}
+
+/*horizonal centering*/
+footer h3 {
+  text-align: center; 
+}
+
+/*link style */
+footer a {
+  text-decoration: none;
+  color: #71A9A0;
+}
+
+/*link style */
+.sociallinks {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  color: #F4CB33;
+}
+
+/* removes block display format */
+.sociallinks li {
+  display: inline;
+}
+
+/* media queries
+ */
+@media (max-width:500px) {
+    .masthead {
+      padding: 3em 0;
+    }
+
+    .masthead-heading {
+      font-size: 5em;
+    }
+
+    .introduction-section, .location-section, .moreaboutme-section {
+      padding: 0 3.125em;
+  }
+}
+
+@media (min-width:500px) and (max-width:800px) {
+  .masthead {
+    padding:5em 0;
+  }
+  .introduction-section, .location-section, .moreaboutme-section {
+    padding: 0 6.25px;
+  }
+
+}
